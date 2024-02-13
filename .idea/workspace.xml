@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b00974-2aa0-48eb-b079-07c0856b5b98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NIO/demo/BufferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NIO/demo/SockerChannelDemo/BIODemo/ClientSockerChannelBIODemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NIO/demo/SockerChannelDemo/BIODemo/ServerSocketChannelBIODemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NIO/demo/SockerChannelDemo/NIODemo/SumClientNonBlocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NIO/demo/SockerChannelDemo/NIODemo/SumServerNonBlocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NIO/demo/fileChannelDemo/FileChannelDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/HelloWorldDemo/MyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/HelloWorldDemo/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +22,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,7 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2cE5aHtUYh8WsF8hGHvKOkXcbA5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,14 +66,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SumClientNonBlocking">
-    <configuration name="交替打印奇偶" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="交替打印奇偶" />
-      <module name="NIO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Server (1)">
     <configuration name="ClientSockerChannelBIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NIO.demo.SockerChannelDemo.BIODemo.ClientSockerChannelBIODemo" />
       <module name="NIO" />
@@ -96,12 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerSocketChannelBIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NIO.demo.SockerChannelDemo.BIODemo.ServerSocketChannelBIODemo" />
+    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nettyDemo.HelloWorldDemo.Server" />
       <module name="NIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NIO.demo.SockerChannelDemo.NIODemo.*" />
+          <option name="PATTERN" value="nettyDemo.HelloWorldDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nettyDemo.HelloWorldDemo.Server" />
+      <module name="NIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nettyDemo.HelloWorldDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Server (1)" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.SumClientNonBlocking" />
         <item itemvalue="Application.SumServerNonBlocking" />
         <item itemvalue="Application.ClientSockerChannelBIODemo" />
-        <item itemvalue="Application.ServerSocketChannelBIODemo" />
-        <item itemvalue="Application.交替打印奇偶" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707663960932</updated>
       <workItem from="1707663962099" duration="2876000" />
-      <workItem from="1707786124760" duration="5378000" />
+      <workItem from="1707786124760" duration="8041000" />
     </task>
     <servers />
   </component>
