@@ -31,7 +31,7 @@ public class Client {
             }
         });
 
-        ChannelFuture connect = clientBootstrap.connect(new InetSocketAddress("127.0.0.1", 8888));
+        ChannelFuture connect = clientBootstrap.connect(new InetSocketAddress("127.0.0.1", 9999));
         Channel channel = connect.getChannel();
         Scanner in = new Scanner(System.in);
         while(true) {
