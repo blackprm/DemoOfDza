@@ -1,7 +1,7 @@
-package nettyDemo.source;
+package nettyDemo.sourceDemo;
 
 
-import nettyDemo.source.pool.NioSelectorRunnablePool;
+import nettyDemo.sourceDemo.pool.NioSelectorRunnablePool;
 
 import java.io.IOException;
 import java.nio.channels.Selector;

@@ -1,8 +1,8 @@
-package nettyDemo.source.pool;
+package nettyDemo.sourceDemo.pool;
 
 
-import nettyDemo.source.NioServerBoss;
-import nettyDemo.source.NioServerWorker;
+import nettyDemo.sourceDemo.NioServerBoss;
+import nettyDemo.sourceDemo.NioServerWorker;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.atomic.AtomicInteger;

@@ -1,6 +1,6 @@
-package nettyDemo.source;
+package nettyDemo.sourceDemo;
 
-import nettyDemo.source.pool.NioSelectorRunnablePool;
+import nettyDemo.sourceDemo.pool.NioSelectorRunnablePool;
 
 import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;

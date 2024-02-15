@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b00974-2aa0-48eb-b079-07c0856b5b98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/source/AbstractNioSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/source/NioServerBoss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/source/NioServerWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/source/ServerBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/source/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/source/pool/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/source/pool/NioSelectorRunnablePool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/source/pool/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nettyDemo/client/HelloWorldDemo/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/client/HelloWorldDemo/Client.java" afterDir="false" />
-    </list>
+    <list default="true" id="53b00974-2aa0-48eb-b079-07c0856b5b98" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +153,7 @@
       <updated>1707663960932</updated>
       <workItem from="1707663962099" duration="2876000" />
       <workItem from="1707786124760" duration="9864000" />
-      <workItem from="1708000401364" duration="4915000" />
+      <workItem from="1708000401364" duration="5833000" />
     </task>
     <servers />
   </component>
@@ -187,8 +176,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/nettyDemo/server/HelloWorldDemo/Server.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="5" />
+          <line>33</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

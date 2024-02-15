@@ -1,7 +1,7 @@
-package nettyDemo.source;
+package nettyDemo.sourceDemo;
 
-import nettyDemo.source.pool.Boss;
-import nettyDemo.source.pool.NioSelectorRunnablePool;
+import nettyDemo.sourceDemo.pool.Boss;
+import nettyDemo.sourceDemo.pool.NioSelectorRunnablePool;
 
 import java.net.SocketAddress;
 import java.nio.channels.ServerSocketChannel;
