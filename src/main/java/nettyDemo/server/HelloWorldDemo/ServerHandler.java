@@ -1,10 +1,8 @@
-package nettyDemo.HelloWorldDemo;
+package nettyDemo.server.HelloWorldDemo;
 
-import org.jboss.netty.buffer.ChannelBuffer;
-import org.jboss.netty.buffer.ChannelBuffers;
 import org.jboss.netty.channel.*;
 
-public class MyHandler extends SimpleChannelHandler {
+public class ServerHandler extends SimpleChannelHandler {
 
     @Override
     public void messageReceived(ChannelHandlerContext ctx, MessageEvent e) throws Exception {

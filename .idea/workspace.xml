@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b00974-2aa0-48eb-b079-07c0856b5b98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/HelloWorldDemo/MyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/HelloWorldDemo/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/client/HelloWorldDemo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/client/HelloWorldDemo/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nettyDemo/HelloWorldDemo/MyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/server/HelloWorldDemo/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nettyDemo/HelloWorldDemo/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nettyDemo/server/HelloWorldDemo/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +68,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Server (1)">
-    <configuration name="ClientSockerChannelBIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NIO.demo.SockerChannelDemo.BIODemo.ClientSockerChannelBIODemo" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nettyDemo.client.HelloWorldDemo.Client" />
       <module name="NIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NIO.demo.SockerChannelDemo.NIODemo.*" />
+          <option name="PATTERN" value="nettyDemo.client.HelloWorldDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nettyDemo.client.HelloWorldDemo.Client" />
+      <module name="NIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nettyDemo.client.HelloWorldDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +96,11 @@
       </method>
     </configuration>
     <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nettyDemo.HelloWorldDemo.Server" />
+      <option name="MAIN_CLASS_NAME" value="nettyDemo.server.HelloWorldDemo.Server" />
       <module name="NIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nettyDemo.HelloWorldDemo.*" />
+          <option name="PATTERN" value="nettyDemo.server.HelloWorldDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +109,11 @@
       </method>
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nettyDemo.HelloWorldDemo.Server" />
+      <option name="MAIN_CLASS_NAME" value="nettyDemo.server.HelloWorldDemo.Server" />
       <module name="NIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nettyDemo.HelloWorldDemo.*" />
+          <option name="PATTERN" value="nettyDemo.server.HelloWorldDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumClientNonBlocking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NIO.demo.SockerChannelDemo.NIODemo.SumClientNonBlocking" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nettyDemo.server.HelloWorldDemo.Server" />
       <module name="NIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NIO.demo.SockerChannelDemo.NIODemo.*" />
+          <option name="PATTERN" value="nettyDemo.server.HelloWorldDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server (1)" />
         <item itemvalue="Application.Server (1)" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.SumClientNonBlocking" />
-        <item itemvalue="Application.SumServerNonBlocking" />
-        <item itemvalue="Application.ClientSockerChannelBIODemo" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +166,8 @@
       <option name="presentableId" value="Default" />
       <updated>1707663960932</updated>
       <workItem from="1707663962099" duration="2876000" />
-      <workItem from="1707786124760" duration="8041000" />
+      <workItem from="1707786124760" duration="9864000" />
+      <workItem from="1708000401364" duration="1109000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package nettyDemo.HelloWorldDemo;
+package nettyDemo.server.HelloWorldDemo;
 
 import org.jboss.netty.bootstrap.ServerBootstrap;
 import org.jboss.netty.channel.ChannelPipeline;
@@ -19,15 +19,15 @@ public class Server {
         ExecutorService workers = Executors.newCachedThreadPool();
         serverBootstrap.setFactory(new NioServerSocketChannelFactory(boss, workers));
         serverBootstrap.setPipelineFactory(new ChannelPipelineFactory() {
-            /**
-             * Returns a newly created {@link ChannelPipeline}.
-             */
             @Override
             public ChannelPipeline getPipeline() throws Exception {
                 ChannelPipeline pipeline = Channels.pipeline();
+                // 字符串解码
                 pipeline.addLast("stringDecoder", new StringDecoder());
+                // 字符串编码
                 pipeline.addLast("stringEncoder", new StringEncoder());
-                pipeline.addLast("handler",new MyHandler());
+                // 逻辑处理器
+                pipeline.addLast("handler",new ServerHandler());
                 return pipeline;
             }
         });
